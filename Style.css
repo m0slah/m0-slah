@@ -35,9 +35,50 @@
     font-weight: 500;
 }
 
-/* .social-links__divs{
-    margin: 100px;
-} */
+ .button{
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    transition: all 0.5s;
+    margin-top: 10px;
+ }
+
+ .button:hover{
+    background-color: #262626;
+ }
+ 
+ .instagram:active{
+    background-image:linear-gradient(to right, red, yellow) ;
+ }
+
+ .facebook:active{
+    background-color: #3b5998;
+ }
+
+ .twitter:active{
+    background-color: #00acee;
+ }
+
+ .github:active{
+    background-color: #000;
+ }
+
+ .linkedin:active{
+    background-color: #0072b1;
+ }
+
+ .snapchat:active{
+    background-color: #FFFC00;
+ }
+
+ .email:active{
+    background-image: linear-gradient(to right , red , white);
+ }
+
+ .telegram:active{
+    background-color: #229ED9;
+ }
 
 .social-links__div {
     margin-top: 15px;
