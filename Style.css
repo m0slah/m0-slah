@@ -8,15 +8,29 @@
     margin-top: 20px;
 }
 
-.social-list {
+.logo{
+    border-radius: 40px;
+
+}
+
+.social-links ul {
     list-style-type: none;
 }
 
-.social-list li {
+.social-links li {
     margin-top: 10px;
+}
+
+.social-links img{
+    width: 30px;
 }
 
 
 .div-btn {
     margin-top: 10px;
+}
+
+button{
+    border: 0;
+    background-color: #F8F9FA;
 }
