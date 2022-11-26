@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,29 +10,47 @@
     margin-top: 20px;
 }
 
-.logo{
+.logo {
     border-radius: 40px;
+    box-shadow: 2px 2px 7px 1px #000;
+}
+
+
+.header h1 {
+    font-size: 24px;
+    font-family: 'Alexandria', sans-serif;
+    margin: 20px;
 
 }
 
-.social-links ul {
-    list-style-type: none;
-}
-
-.social-links li {
+.social-links__div {
     margin-top: 10px;
 }
 
-.social-links img{
+a {
+    background-color: #121212;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+a:hover {
+    background-color: #262626
+}
+
+.link-test{
+    color: #fff;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.social-links img {
     width: 30px;
 }
 
-
-.div-btn {
-    margin-top: 10px;
-}
-
-button{
+button {
     border: 0;
-    background-color: #F8F9FA;
+    /* background-color: #F8F9FA; */
 }
