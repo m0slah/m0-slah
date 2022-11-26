@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container-sm {
+    margin-top: 20px;
+}
+
+.social-list {
+    list-style-type: none;
+}
+
+.social-list li {
+    margin-top: 10px;
+}
+
+
+.div-btn {
+    margin-top: 10px;
+}
