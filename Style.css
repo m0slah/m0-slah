@@ -15,6 +15,9 @@
     box-shadow: 2px 2px 7px 1px #000;
 }
 
+.header {
+    position: relative;
+}
 
 .header h1 {
     font-size: 24px;
@@ -23,22 +26,37 @@
 
 }
 
-.social-links__div {
-    margin-top: 10px;
+
+.header-list {
+    list-style-type: none;
+    display: inline-block;
+    justify-content: left;
+    left: -330px;
+    font-weight: 500;
 }
 
-a {
+/* .social-links__divs{
+    margin: 100px;
+} */
+
+.social-links__div {
+    margin-top: 15px;
+}
+
+.a {
     background-color: #121212;
     padding: 15px;
     border-radius: 10px;
+    border: 0;
     transition: all 0.5s;
 }
 
-a:hover {
+.a:hover {
     background-color: #262626
 }
+ 
 
-.link-test{
+.link-test {
     color: #fff;
 }
 
@@ -50,7 +68,4 @@ a:hover {
     width: 30px;
 }
 
-button {
-    border: 0;
-    /* background-color: #F8F9FA; */
-}
+ 
